@@ -5,6 +5,8 @@
 
 div {
     display: block;
+    font-size:2rem;
+    padding: 1rem;
 }
 
 nav {
@@ -15,17 +17,36 @@ nav {
 
 
 textarea{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+
+    /* background: #FFFFFF;
+
     width:80%;
     height: 10vh;
     display: block;
     margin: 1rem;
-    padding: 1rem;
+    padding: 1rem; 
+ */
 }
 
 #btn-translate{
-    background-color:blueviolet;
+     background-color:blueviolet; 
 
+   /*background-color: var(--primary);*/        
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
 }
+
+
 #output{
     border: 1px solid black;
     height: 10vh;
