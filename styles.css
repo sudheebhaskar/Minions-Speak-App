@@ -36,7 +36,7 @@ textarea{
 }
 
 #btn-translate{
-     background-color:blueviolet; 
+     background-color:rgb(143, 184, 138); 
 
    /*background-color: var(--primary);*/        
     border: none;
@@ -44,6 +44,7 @@ textarea{
     padding: 1rem 2rem;
     font-family: 'Kalam', cursive;
     font-size: large;
+    border-radius: 8px;
 }
 
 
